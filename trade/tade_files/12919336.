@@ -1,0 +1,300 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+    
+
+
+
+
+
+
+<html ng-app='tmrpApp'>
+<head>
+<title>商标详细内容</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+<meta name="renderer" content="webkit" />
+<link href="/module/resources/bootstrap2.3.2/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="/module/resources/bootstrap2.3.2/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+<link href="/module/resources/beacon/css/beacon_main.css" rel="stylesheet" media="screen">
+<link href="/tmrp/css/zh_CN_css.css?1.127" rel="stylesheet" media="screen">
+<link href="/tmrp/css/zh_CN_debug.css?1.127" rel="stylesheet" media="screen">
+<meta id="9DhefwqGPrzGxEp9hPaoag" content="LHoR~^7~ge~]C~hJ~iv~]I~cX~ai~p7~_H~hB&amp;RJ`fiil|}jjfs|?|kl]efgYiZrnbQDcBVj5mPSEO7L[GKq2CA`JI36~pFHd.1tRW}Mho4NX0as{8T_9^uwvx !#$%()*+,-;=?@Uyz||^|r|]_cf|]|mfc]_|]ih]}n|})J)K)F&amp;UK}dilcCh|`k|0bAnp`eo|nPfSjss`e0mJnhjWjFmChLmFh0dH~rnbibajiJjP|ecjdLeM}DmpaRk4aW}Wjm}JYckOcAgUbdAS`Yh^kbkd}1~Gcfk6iIbEqlmgf`cGdWAYhh%/rIkB}nPN]MPN|A~}67uikjkmdnkH}6Qa0HYR}6Z`GMT`a}nPab3Zue3jab}kYEIHZNX}6]OeM]ES}6YNuAYsq8l}nF70MYE|Djb}k4kkQTuA}k7IaL]r58OME8ZaJ8P[}nFT2Mju0AW}67`iPOOEPFNJA]b}kik0LPl}6F`en]`uMZ7K}6FueA~}k]h]P1mALB}6OtXDZQ}k1mBHYMuLPl}nFE]DjIJ6]u]API3DB}kK~}kPs58PspLW}kPsp8Zse}k5k^QW}kTb4}nZ`[EPt~8jh^PYaUTJa2n]TtPF``T4L}6FOBAZIN8gkX8ZB}kYEiAYmNM]N.8qE3A6BI3ha.Pqh]LYsBHZhKDjG}k]b}6Z`NP]`~H]Te8~}nZIrAYaqM]urnhO~Hl}nn[}6g77PYt.HYuKL^tQ6QagQhmR}kqhJL4r2L]E~rh`e}6YaqAOtUPPs2HPNuPqtaDZrBPB}kFsBAY2}k4OBAZEaLKtjHZaJ8PsJ87haLZrSLKtJrh`eLO`i8~}kK4}6FI.8Z4}k]hJMYG}6haSH7OO}kFkO8Zu58jE4}kFmaLB}6]ODAhb}6JW}kYOiLZQ}6Yu3HFt.MimqPqlBF]tqD]OKAZLG}kqhJL7sqAYEuL1[}6Y7Q}njL}6]MI8W}6TE[k5EXHYuE8ZN~8ZtX}6]I2AFtIHqEeP~}kY`KP]hYQjh3LF[}kYkKLTh]A][}nj7t[1O43Yu.njhGPW}kqmDHZsuA~}6YN.DB}6Zm.P1hI8FI~%*?Mg3^y2hCyg7g^W3S3odQm2mAKSe^z_fqi4cIU[fhlIfCa`38}WdYQSV]B_BAJ2715gM3XMl17PP^^geALkMg|A2I{Z3JaNBdnWB3`D0JIMFIW[3dpj1K3D281M|]8DUom`Lo7N{8Ty2FK~W013odNmD0QlXep4_f]W27Nq9m4zDdoG`0W}gKMQSVid`lggkKibA0JFg|]DLU]nIUK34M4F2Pn`Z3z^SBgQ2G4K97dINB3MH3I69LnTX3pz`PE1k2haA7M]IFWTy2ciY4PpJ4UA]DY%YiEQcQoQCQ|QwQ&amp;Q[QnQY1q1HQ0Hg1bH)1N1f1I1-1xeqU|1]1u1j1E1VH#1KHQ1myy191lHA1dVr1Y1h1Q+OU]16YYut1a1zH11O1D+Y1y^*O+9CHMUbU[JmUmHP1&amp;H^V]&amp;~HHUq1CH*10UAHEHqHnHKU-H(H2vuH9V|U2w1UD9VH-VKJ(UIHr6cUrV[Utec+q9&amp;Hc+J9lUfUvON+)agHuV;Y5JUHtU#HyHYY-9fVoeNUlH4Uj+-Yg9qU4&amp;M&amp;Ve(UeH6Uc9vC&amp;VP|t2(UNn^60+*Uu&amp;(v6;U;tU&amp;U+nH IU1+(+N;^+m+9+K9 0a6rVU+UCuUhyE^Yo1+yDaz-+0O 9wVuV{)[0gUO+h+HU +2V9nV94^J91+]+E9Uzh9~;#+j;+Vg^u0ooweM+59nzyer&amp;zVVV++bV +V&amp;1Dl;S9N9refYV+[[g[h[D~^25avYM;A+v|9Vy0KVqV2+4+uey9g+ Vv&amp;e0&amp;e#Jl;a*1vr9ae2CwJ][*nr*W2evt0M+CV4[5VxJy^t;~JjVneKtfV#z{)cV0et9{vl;Ht(9EJ;v|Vdw&amp;^v962rJJ|m0mO)V^9t;O;(ePOKeV;hVee49y|r)W0l*dJV;zVCew;r -zz&amp;v6[&amp;02Q4|zS&amp;H9Aubwl^2Jn+l9eaH;c;wzM0QJr;K K[#eY &amp;9IcQ6M9z9(^)6]egJ19jJut&amp;9^zv220Y)m9O6D;9^jJNz1;[&amp;Q;&amp;wSz|nYe)*CC(t+Dr2;;12m;2)40] wt{tE2j;P66JxJze*&amp;jyweEDYeo V;I;YaC2O&amp;rayJ)y*a^zcCvJ2e9OJee;JDdct2Coz)wzKCf;dJ- ;a)[2Jgy+;e *;4em&amp;q aJKJc2IyheS 2~CzHDxo(*{2g~5Yu&amp;l|&amp;0rt9 Acc+cvOJMPO~gzVUyn-29eI EJCCDeCYP&amp;AnE~9uy*2cyD6JbJEz52|C{e|J+^feH1eeUY**fynzQY+)zzeYz~q6qOro+O#aWyM0~cP[+z*af&amp;we{z[zru oVDD^o6N4WC)2t*)^Q)(0D26e^t[DgeO2P62)6vjwAw*2Ew)Ou4YneOb4Dzo^ OPyVYh~n MeQzCO[n2otOC|2wu6Yvdzm*YnU2xzPcJaQzWwbv zt*N2*evw6ndz&amp;Y2c2 +yczOuE&amp;muc&amp;C*QDq20 W214jvV2&amp; CtI[P u[-&amp;+&amp;E^dadtVvv&amp;du9 ju{Og~(n6amz+2K 0~Y|Yw2Djo*)~|1~ at2Yoa2ha9CS2yol 9CY2-tUve04o;vg)5zn x6|&amp;N0yw^ng|D4IaA|ntyD+YxcdwN&amp;^Cx6O*coEyDvcux2bwdoNaO*Py~6*[^4^Y |f)nC~*H*q|zuot2|c)JnlYet )I[SYUCl6;|In5|a4O*A)g^I2vcqYjVNa-J|D;v0*m|uvx4A J^0|Q 5n4y]vh6yO;nM&amp;90;O-y(Y6tn0V^-^n ~Y0);YSy&amp;o#o5D{n)4ewoVJy2tA&amp;)og H[o~wyO0-CHy))x4{)-vMYty{~hnC*^ODa5tWc14zOho0yjna)YnoCNDOyWy5^zymwY4ouAon NDHvQvb)*4#C5wmc0c5 eYvwa Yyd&amp;Jwq*t0[umu1)2n0YOoxwe)f |44)KvY6+6lnQ^xCJce|E&amp;][e)&amp;cb&amp;&amp;nn 6^l|gn]O][][yC Y|  coCKCd|5; wv|M4QC2vE^ytlygnjD&amp;yIt-cmD#v* ]~K[Qyx0149Y;6CD9~ltd41[xtYDMcA^Ua#COt)Yqw;4(^Etao&amp;ul&amp;26{uetey^^KU0~*O5OQ2J0juJUC*-~UvIOj9dod[Oof4K&amp;P[YOUaE~zO(6ev~DP0Ia+&amp;[o4wQtO6uOqYHy 6a)Oy#~Sczz6aqDbytc;c(DQtrD(tq[d02yYoYncobc#Oawc[raj&amp;hD nAuPn;&amp;;cD&amp;bVwuKwH|eY[HS6VtvuYu[&amp;W0Ew~u-omYI*4D|~6wE[;HVttoKtCyuuWJYnm0u0^vHyAoPu5DvwW~4nInP0OC*u&amp;cuu;2ca&amp;Cr4w45CcyS4; Sy|a[&amp;x^q[an[&amp;uuI&amp;govuq^Pn|uSv-w]cE~D~xC9CP~oYNaJ[4uncV[V[qD]O4|l0n^{Yw&amp;S^|u4uw&amp;cYD)10#^VuDc] )or;goJyfeAoQtPvDa2au~vuVu^CMnO[~u||xvz #|Sz~vWCevAaDC;cUCa*wD0yP0xtoaM&amp;Ua44vtN+;a]Oc9]tc[ crt#[C0vCCJt[0nN|0w5yq^&amp;CQcMcnDc[tC|w-|woM0U4yV1|{w[6hYao|VEV&amp;~NnW6d^]w+o{~- PyU4m*(~]t^t5&amp;KuN;;c9[n[ADI)QuM[9tMcWYJ[zw4^~OSo]4*|H c+g&amp;Du#cjoO)EvSC]u~~#oI6jYA)r|6uQ***0n+DUcOy0Yotw^[4J[JcI*r[I|~^CYy1oojw|ooO~yH~cOW~||Koeu(wC^g|V0(6&amp;JDY(^wYc4gDVtQ6mYr|qH&amp;46Cqc^cYVQ|bcaD5*#D2t1u+u6uj9HvfclwItg[u~Qoy4hCgOdD^o2~yuz0)Cm^H~doh6#a1c*6n~fDJzja|w{n{^56gaocxwr6z~VDn|4nx;Wa0oCO1[Eye6xyl4u+o[b6S&amp;t|-0*Of&amp;|OIt]^S;6C-ch6EDW[fC1cNtbahc-[w|dCIO9&amp;5v(4]CWyzO*o6a;O605~{[|y1~t[&amp;aS)oYb|;D[uO0PyJC^DuuC)acKnvY{4ntKyN*[&amp;#c4|Nc)Y#vUthzxD49+0wO2OeybDm2#4x40~J0e4[cS[W4)o[65OV)quhn#;ft0y9[))AJ&amp;ae|Pwx0N)by;6(6-uH[K4UnyC64lc&amp;|jyov;w ^h o)t6ozaYn6W)uaYDN4V~M0twzt|a*)v^^[cDh0+v1a66^~Atx6K[v~)Y~nq6 zDnw)H)|*O|Ucfu)[U6I| u0D)nz zanv)~&amp;|vnS~2Do Q06 qnD~e)0OEHzYC|hOxCjexax6b)Nc+[{Cy2Mo9ea+MUPwf*+vm|J Ot~Cz*90btS dwgz9~j2+4cw#)lDAoS09~E||vy g*l4C)yCt^(2q&amp;f&amp;oy-4twwY1)#4fv#4N4ac[ [|)*EvP*JwP|y^m|#6JawY)nh2Dn1614S6~~a^;4-Dz)+c6aK) |C~m^W&amp; *b|]2dDe2^aaou~u2W[6vNyQc C0tmnJcw~; mar2AY4Omw0Df4Pu**ac~t6CA004&amp;wtyv^e*jc{Ow {&amp;naV6f24y6wMn9Dw4d*5&amp;IaPya~H2aYW*KDtab4q~Pw9v{*~nu*u*U6ven~1*z y*&amp;e[[jD~cH^94+^A^4t4)PuvaIwn)]2 CVe JH~[nK6w6Qa t;zgzE9|tHD1 ^)hz0vqzueJ4~0Aw(n~a(aNtj*gJwCo*h[l2N~O+D0|Y]|(^bo-~+ (zw2]^aeD0W^DoDtJ)Ma{yCzfurD-~bednt0q|*n(+c6te52w hv2zNe~Y&amp;J0DEwJ0S&amp;y~r|o2lvwa~*nOz~~*Mez*xzUJd0cJ5aUt**]n&amp;|^|OcvwVejo)zbale-694rYK&amp;4yr)CYf2)uf4E[(2f r;yOye]o^z2zJ*VJq*o2ozqc|JOY9YlwDoc2uuUv[&amp;YYE42vavnvC|[whv5CUz;6P D0J^M;]elJPug feu)^ nwOJ#)Uvou2[Mz];-ud2VC+z^;l*e^O6H[1J*~W4M90vJ92wj;nJ69*v4cg0h*; vz)v^[N* 9c4 D*z(*y&amp;{;NJ~4H[O bn z4wK2{9-ehe&amp;nf*IJf9bvK^N*|u][mJo^19;Yd;*J{*S9M|+2S9oJ4V~))yKuu^rv9J^YQzY9[OMebJh;DoU649m;VJ[;C[[o Ym&amp;O^c;)JaJve+ lv];MVDe;e6|A2~C[DyV-2[)9&amp;-)SJ9v+2n9W)eVaJW toqo~OtV6OAzdy4+^VhVY0 2zoAOncCCb+|){Cn6)DKJSVHJI;vwy)j~09#|WazVOacnb9K;jV*9P+Iv&amp;9u+r;EVzwU*6+zVl 4)VJAC40zoHVje1;0y[Ch+AU^e0DS+~Vtz#VcOlVI^+U6U~zI6U0H6A9hOHtzVf0d;|;bUnO{zAVW*v2UUJ9);m^6Vbz UwU)C#U*+eUoeW+nUVV59Y9DUQtu+d+xUY+W*D+&amp; UOY;oVM)d2HJQ;q+S+azl+fU;[H9xJ VS&amp;aU9+t++;{0{+{HOUHJeHaHCuaU5H[V(Ho&amp;*~I;Q+6HeHDOoUdHv9J95HbU(4bUKHfUEU{n*Hw+#H+Vm+QUzUxHJDCH{UaUSH0991^HUHd;u^#;50fH512Hl1[H]HjH HW149QHNUgUM 11|VA&amp;61c1tHx)D1;UWHh1 1w+P1n1J0C1eH|1UH~1*1+119S1(1~1rO|H;UU1#1M+11PHm1A1)+w1gV)1v1SQ^15HI1WQ6Qv1{QaQOQ~Qt;x?E783_1909_1986_860_19091J563|52|8[Erl0YM89xP_3EWLpQMym_^S1O9pANCd.rmUYR3idE_dIc[iIY`M{q{.U1RfsuJUtmSeU1pFirRdpkpxiV7ukUT8Hmagk6e1WTL5YnfctYGuUOm3iffessSAtmfGokz8WsWg360.iUydxsW.HPALWn9vWnZStuNNQvEqq.21O3FS8SYz3dqiNariPvebMN7c4gml_.oTy.qzzlTMV}lpJygznjBWRp92sC1EwybOcCrEEWjSK1Dx3AfTCFRER0SPk8FIN7z2DMpWNWLfPoxRjlJ7vMowQz0uvIxQ7eCXAoiQ.7mS6RmrlreJqwqIsJ6A6mqQkreHvrWQkErioVXRKAfWCweEDlawkRbDbQ7QDQ_8aqq{qRk.GALT.85NLnkPqU6KoeWynIMOF2MZ3K4p7EIiKLK2hd3u5ekPNzRmNedCQjCJm{ FtYVuqMKowJE6roRkRwtnp63oWEDOlOWrJlMa2KAczaQaqIMcR3tCruWreQtblOJcwqwCmKQOOM4x8YS1XEo.AXLqF3k50jzcMgxXGXgqM7Qef59rjLoXlFGD.GDN9k_VdRKqKViT9a7B4jOZvfARjGXxFfahWsAMMAsZRsH{ZKif9GsFRhRygfsbrHwr_uoPME3qeuojAh3Q7buMU8xV02PXhRw7_21nHJyEy6U.8hNgTwsaZ85BJb.D.eXobN45DeX6Kfhc7012y3uwXJKQ_RDAnHvgtEba4QkRvqlR7fxJ1561888359805J/txnDetail.doqWtC0FUSeKD23Fk139l3650qVs4eGnu8Xc_A4LnFB3FqGt1611710534{tUbpPksqYtSx5lnQ3iTpZqOQHiG9as6goi2xZhnLxWklSmuzKIGWdDP713TLFocLMJSwZUoy13qqqr0{DJLGtgYOyAdgKd0dZV4qVy2d.VBY37SM4VjgV5mvCYdNszpMXYdYkdaXysHpN6vPZm.ZRvGq{bQCArqAEAmfVoUAQrmTAvEuwRATTqUVpwAm2oAO30AlACW9zoJOAns9VTWlrl1uYiJVylplYEJ9zhi0caYIWKZaMbqHrx4r6PmBeiXAhqSPi_lYalNEqq{uExG1Lf1.DBYi4lOypImq.rjblNNiSm8cRWxVaAPWk7mm06srsQSFSV4iMZND69UFcERqGfjElLfiT28VRJpV0aP8kzemuUssswyF0043MefDulK0ciGqqqk346KZvns_zysPO2wdVTiDxQeraqqc80r1qqD0a1397m28436}Pm5l.Pob13NQ6OUH3J3wyPU16wRSOvvPmJQSyOojht70T0DiERyQj0UKr3gmgbkUUwxpCPbsoJR2gPDi18RZ66sfsMof0RnVfIDT.wUpv3sTCR6R7iPNXFvpyIsq__E8jdgnsexC5d3t1Zt80dN86Jsf6wvN0Q6zaxsydQ22awvSQpKSqQVgacOLFq8K.m6GbbD3LpOfKCk3gyLGD5HF3T.OGr0qq{UDfQfx1LjJcGjEOAPtOEzhPqbtPpzA6r1Jmmg1spowlSjpupqwYg01vAAEf7fKC2oFArNsvJsJmRTpkpAwqgPr1lVoVV7Qcz6xUZ28nzyh6aNqqqqqqqq"><!--[if lt IE 9]><script r='m'>document.createElement("section")</script><![endif]--><script type="text/javascript" src="/4QbVtADbnLVIc/c.FxJzG50F.0a1397e.js?D9PVtGL=0a1397" r='m'></script><script type="text/javascript" r='m'>function _$Iu(_$zY,_$E8){return _$fr.call(_$zY,0,_$E8.length)===_$E8;}function _$DD(_$zY){_$zY[12]=_$Id();_$zY[8]=_$HG();_$zY[_$AG(_$FJ(),16)]=_$tf();return _$Gz();}function _$t2(){var _$zY=new _$H9(256),_$yG=new _$H9(256),_$xe;for (var _$GB=0;_$GB<256;_$GB++ ){_$zY[_$GB]=_$GU(_$yG[_$GB]=_$GB);}var _$Dv=_$kC();for (_$GB=32;_$GB<127;_$GB++ )_$xe=_$GB-32,_$zY[_$GB]=_$aF.call(_$Dv,_$xe),_$yG[_$GB]=_$Jj.call(_$Dv,_$xe);_$Dv=_$zY;_$mf=function(){return _$Dv;};var _$E8=_$IU.call(_$HE(),_$bk());_$ft=function(){return _$E8;};}function _$BN(_$E8,_$zY){var _$xe;return function(_$yG,_$GB){if(_$xe===_$Jf){_$xe=_$An(_$yM(_$E8),_$yM(_$zY));}return _$xe;};}function _$HG(){return 5}function _$AL(){_$zZ=_$uu[_$jJ()];_$uu[_$jJ()]=_$Jf;_$uu._$BT=_$Jh();_$qq=_$uu._$BT;_$Ia(4,0);function _$xe(_$CP){return _$Jq[_$yM(_$Dv[_$CP])];}function _$zY(){var _$dg=_$Jp[_$tJ()].length;var _$CP=_$dg>1?_$Jp[_$tJ()][_$dg-2][_$xs()]:_$Jf;if(_$CP){var _$zw=_$Jq[_$mZ()]?new _$Jq[_$mZ()](_$lT()):new _$Jq[_$b8()]();_$zw[_$bC()](_$cy(),_$CP,false);_$zw[_$tw()]=function(){if(_$zw[_$jm()]==4){_$By(_$zw[_$jq()]);var _$Gv=_$uu[_$jJ()];_$uu[_$jJ()]=_$Jf;if(_$Gv){_$ky(_$Gv,_$Dv,_$yG);}}};_$zw[_$jH()]();}}function _$GB(){return _$Ef;}_$Ia(2,_$Ge(7));var _$Dv=_$m9();var _$yG=_$wx();var _$E8=_$wx();_$HM=_$xe;_$Fy=_$E8[1];_$Ds=_$E8[0];_$DR=_$E8[2];if(_$zZ){_$ky(_$zZ,_$Dv,_$yG);_$zZ=_$Jf;}else{_$zY();}_$uu._$Fs=_$Jh();if(_$uu._$Fs-_$uu._$BT>12000){_$Ia(1,1);_$Ao(13,1);}else{_$Ia(1,0);}_$Ia(8,0);}function _$yL(_$GB,_$Dv){var _$zY=_$Dl()[5];var _$yG=_$zY[_$Jj.call(_$GB,_$Dv)];if(_$yG<82)return _$yG;var _$E8=86-_$yG;_$yG=0;for (var _$xe=0;_$xe<_$E8;_$xe++ ){_$yG*=86;_$yG+=_$zY[_$Jj.call(_$GB,_$Dv+1+_$xe)];}return _$yG+82;}function _$wy(_$zY){_$zY[_$AG(_$FJ(),16)]=_$zY[_$AG(_$Gz()+_$G2(),16)];var _$GB=_$HB();_$Dv=_$zY[_$AG(_$FJ()+_$tf(),16)];_$zY[14]=_$H5()-_$zY[_$AG(_$Gl(),16)];_$GZ(_$zY);return _$H4(_$zY);}function _$dW(_$zY){_$zY[8]=_$HG();var _$Dv=_$tf();_$Dv=_$Gz();_$zY[_$AG(_$C6(),16)]=_$Id();return _$Gl();}function _$C6(){return 8}function _$wx(){var _$zY=_$Ib(_$jI())[_$uw()](_$mg());for (var _$E8=0;_$E8<_$zY.length;_$E8++ )_$zY[_$E8]=_$IH(_$zY[_$E8]);return _$zY;}function _$zH(_$xe,_$yG){var _$E8=_$ux();for (var _$zY=0;_$zY<_$yG.length;_$zY++ ){_$Jq[_$E8+_$xe[_$zY]]=_$bY(_$yG[_$zY]);}}function _$jI(){return _$jZ._$f5();}function _$Ik(_$zY){_$zY[_$AG(_$Id(),16)]=_$Gl();var _$GB=_$FJ();_$GB=_$tf();_$zY[9]=_$G2();_$zY[5]=_$HO();return _$HB();}function _$Gl(){return 14}function _$By(_$zY){if(_$zY===_$Jf||_$zY===_$bk()){return;}var _$yG=_$Jq[_$bQ()][_$cN()],_$xe;if( !_$EO){_$EO=_$yG[_$ik()];}if(_$Jq[_$zg()]){_$xe=_$Jq[_$zg()](_$zY);}else{var _$E8=_$Jq[_$qM()];_$xe=_$E8[_$hY()](_$Jq,_$zY);}if(_$EO!==_$yG.push){_$yG.push=_$EO;}return _$xe;}function _$xy(){return "sao|pCtchaA|roetcdUFbeecnyn|jun|reaetrnne|aMDasRroa||ti|n|mlepotrvIrEoOIntueecp";}function _$yD(){var _$xe=_$oU();var _$E8=[];for (var _$dg=0;_$dg<6;_$dg++ ){_$E8[_$dg]=[];}_$Dl=function(){return _$E8;};var _$GB=_$E8[0],_$yG=_$E8[1],_$CP=_$E8[2],_$Dv=_$E8[3],_$Gv=_$E8[4],_$zY=_$E8[5];_$uK(_$zY,0,255, -1);for (_$dg=0;_$dg<_$xe.length;_$dg++ ){var _$zw=_$Jj.call(_$xe[_$dg],0);_$GB[_$zw]=_$dg<<2;_$yG[_$zw]=_$dg>>4;_$CP[_$zw]=(_$dg&15)<<4;_$Dv[_$zw]=_$dg>>2;_$Gv[_$zw]=(_$dg&3)<<6;_$zY[_$zw]=_$dg;}}function _$tf(){return 0}function _$tg(_$GB,_$Dv,_$CP,_$zw,_$yG,_$E8){_$GB=_$Eh(_$zk(_$Ib(_$GB)),2);var _$zY=_$zS(_$Ib(_$Dv));_$Dv=_$IU.call(_$zY,_$ED);_$CP=_$Ib(_$CP);if(_$CP.length>0){_$CP=_$IU.call(_$CP,_$ED);_$Dv=_$Dv[_$cL()](_$CP);}var _$dg=_$ux();for (var _$xe=0;_$xe<_$GB.length;_$xe++ ){_$Jq[_$dg+_$GB[_$xe]]=_$Dv[_$xe];}_$zw=_$Eh(_$Ib(_$zw),2);_$zY=_$Ib(_$yG);_$yG=_$IU.call(_$zY,_$ED);_$zY=_$Ib(_$E8);_$E8=_$IU.call(_$zY,_$ED);_$yG=_$yG[_$cL()](_$E8);_$BF(_$zw,_$yG);}function _$Cr(){return 11}function _$Bf(){var _$xe=_$Hr(_$wC(_$mD()))("9DhefwqGPrzGxEp9hPaoag"),_$GB=0,_$yG={};_$yG._$f5=_$Dv;_$yG._$wl=_$E8;return _$yG;function _$Dv(){var _$CP=_$zY();var _$dg=_$IL.call(_$xe,_$GB,_$CP);_$GB+=_$CP;return _$dg;}function _$zY(){var _$Gv=_$Jj.call(_$xe,_$GB);if(_$Gv>=40){_$GB++ ;if(_$Gv===126)_$Gv=58;return _$Gv-40;}var _$CP=39-_$Gv;_$Gv=0;for (var _$dg=0;_$dg<_$CP;_$dg++ ){_$Gv*=86;var _$zw=_$Jj.call(_$xe,_$GB+1+_$dg);if(_$zw===126)_$zw=58;_$Gv+=_$zw-40;}_$GB+=_$CP+1;return _$Gv+86;}function _$E8(){return _$IL.call(_$xe,_$GB);}}function _$GZ(_$zY){var _$Dv=_$Hc();_$yG=_$DD(_$zY);_$zY[15]=_$H5();_$zY[11]=_$HB();var _$yG=_$Gz();if(_$FJ()+_$tf()){if(_$G2()){_$zY[5]=_$HO();}}_$zY[_$AG(_$dW(_$zY),16)]=_$cU(_$zY);if(_$HR(_$zY)){_$zY[3]=_$Gz();}return _$zY[_$AG(_$FJ()+_$tf(),16)];}function _$Ao(_$xe,_$E8){if( !_$I2)return;if( typeof _$xe===_$qz()){_$xe=_$Ir(_$xe);}var _$zY=_$Aj(_$xe);if(_$zY)_$E8=_$IH(_$zY)+_$E8;_$xe=_$uW()+_$Gn(_$xe);_$I2[_$xe]=_$E8;}function _$Jh(){return new _$G3()[_$r3()]();}function _$ir(){var _$zY=_$jI();var _$E8=_$jI();_$zY=_$IU.call(_$Ib(_$zY),_$ED);_$E8=_$IU.call(_$Ib(_$E8),_$ED);_$zH(_$zY,_$E8);}function _$BQ(_$GB,_$zY){_$zY=_$IU.call(_$B3(_$zY),'|');_$GB=_$B3(_$GB);var _$E8,_$xe=_$IL.call(_$GB,0,2),_$yG;for (_$E8=0;_$E8<_$zY.length;_$E8++ ){_$yG=_$IL.call(_$GB,2+_$E8*2,2);_$Jq[_$xe+_$yG]=_$Jq[_$zY[_$E8]];}}function _$FJ(){return 4}function _$HR(_$zY){_$zY[_$AG(_$Gz(),16)]=_$G2();_$zY[5]=_$HO();_$zY[1]=_$Iy();return _$FJ();}function _$B3(_$CP){_$CP=_$IU.call(_$CP,'');var _$xe,_$E8=_$wY(31106),_$zY=[],_$GB=_$CP.length,_$yG,_$Dv;for (_$xe=0;_$xe<_$GB;_$xe++ ){_$zY.push(_$E8()%_$GB);}for (_$xe=_$GB-1;_$xe>=0;_$xe-- ){_$yG=_$zY[_$xe];_$Dv=_$CP[_$xe];_$CP[_$xe]=_$CP[_$yG];_$CP[_$yG]=_$Dv;}return _$CP.join('');}function _$G2(){return 2}function _$uF(){debugger;}function _$wY(_$zY){return function(){_$zY=(_$zY*17405+40643)>>9&0xFFFF;return _$zY;};}function _$pj(_$zY){for (var _$xe,_$E8,_$yG=_$zY.length-1;_$yG>0;_$yG-- ){_$xe=_$Ji[_$iH()](_$uN()*_$yG);_$E8=_$zY[_$yG];_$zY[_$yG]=_$zY[_$xe];_$zY[_$xe]=_$E8;}return _$zY;}function _$HB(){return 3}function _$Ge(){var _$zY=false;_$Ge=_$E8;return _$Ge();function _$xe(){_$zY=false;}function _$E8(_$Dv){if(_$zY){return;}_$zY=true;_$HY(_$xe,0);var _$CP=_$Gu&&new _$Gu();if(_$CP){var _$dg=_$CP[_$kO()];if( !_$dg){return;}var _$GB=_$dg[_$tQ()]();var _$yG=_$IU.call(_$GB,_$jN());_$GB=_$yG[_$uo()]();if(_$GB===_$bk()&&_$yG.length>0)_$GB=_$yG[_$uo()]();if(_$IQ.call(_$GB,_$r1())!== -1||_$Iu(_$GB,_$oo())||_$GB===_$Ej()){_$Ao(_$Dv,1);return true;}}}}function _$B0(){_$AZ=_$Jq[_$qM()][_$tQ()]()[_$va()](/[\r\n\s]/g,_$bk())!==_$pQ();}function _$hN(_$E8){var _$zY;return function(){if(_$zY===_$Jf){_$zY=_$en(_$E8);_$zY=_$Ib(_$zY);}return _$zY;};}function _$ky(_$dg,_$Fb,_$xe){var _$Gv=_$Jh();_$B0();var _$fW=0,_$E6=0;var _$yG=_$CO(_$mg());_$Gv=_$Jh();_$or();var _$C7=_$F8();var _$GJ=_$Gp();var _$Di=_$Gp();_$Di=_$Di[_$ps()](_$Gp(true));var _$zw=_$Gp();_$zw=_$zw[_$ps()](_$Gp(true));var _$BJ=_$Gp()[_$ps()](_$Gp(true));_$Gv=_$Jh();_$or();var _$Fl=_$F8();_$dg=_$IN(_$dg[_$o7()](_$fW));_$fW=0;_$Gv=_$Jh();var _$yH=_$Fb[_$gr()](_$xe[1],_$xe[2]);var _$CP=_$Fb[_$gr()](0,_$xe[0]);var _$ai=_$Fb[_$gr()](_$xe[3],_$xe[4]);var _$FO=[_$BJ,_$ai,[],_$CP,_$yH];if(_$Jq[_$yM(_$HM(_$oD()))]){_$pj(_$CP);}_$Gv=_$Jh();var _$E8,_$FZ=0,_$GE=[_$Jf,_$Jf,_$Jf,_$Jf,_$Jf,_$GB,_$Dv,_$zY];_$E8=_$Dv(1);_$Gv=_$Jh();_$AH(_$ai,_$zw);_$By(_$yM(_$E8));return;;;function _$zY(){var _$Gx,_$FA,_$EQ;_$Gx=_$Dv(1);_$Dv(1);_$FA=_$Dv(1);_$Dv(1);_$EQ=_$Dv(1);_$Jq[_$yM(_$Gx)]=_$BN(_$FA,_$EQ);}function _$wG(){var _$EQ=_$dg[_$fW];if((_$EQ&0x80)===0){_$fW+=1;return _$EQ;}if((_$EQ&0xc0)===0x80){_$EQ=((_$EQ&0x3f)<<8)|_$dg[_$fW+1];_$fW+=2;return _$EQ;}}function _$vO(_$FA){var _$EQ=_$fW;_$fW+=_$FA;return _$dg[_$al()](_$EQ,_$fW);}function _$Dv(_$EQ){var _$Fh=0,_$Gx,_$Gj,_$FA;if(_$EQ===1){_$A8();if(_$Gj<=4){return _$FO[_$Gj][_$FA];}return _$GE[_$Gj](_$FA);}_$Gx=new _$H9(_$EQ);while (_$Fh<_$EQ){_$A8();if(_$Gj<=4){_$Gx[_$Fh++ ]=_$FO[_$Gj][_$FA];}else{_$Gx[_$Fh++ ]=_$GE[_$Gj](_$FA);}}return _$Gx.join(_$bk());function _$A8(){_$Gj=_$E0();_$FA=_$Gj&0x1F;_$Gj=_$Gj>>5;if(_$FA==0x1f){_$FA=_$wG()+31;}}}function _$Gp(_$xt){var _$A8,_$EQ,_$Gj,_$Fh;_$or();_$EQ=_$F8();_$A8=_$F8();_$Gj=_$vO(_$A8);if(_$EQ===0&&_$A8===0)return[];var _$FA=_$Gj[_$uw()](_$yG);if(_$xt){for (var _$Gx=0;_$Gx<_$EQ;_$Gx++ ){_$FA[_$Gx]=_$en(_$FA[_$Gx]);}}return _$FA;}function _$or(){if(_$E6=== -1)return;if(_$E6===0){_$fW++ ;if(_$dg[_$qC()](_$fW)===_$kS()){_$fW++ ;}else if(_$dg[_$qC()](_$fW)===_$nA()){_$E6= -1;_$fW++ ;return;}else{}}var _$EQ;if( typeof(_$dg)===_$gl()){_$EQ=_$IH(_$dg[_$o7()](_$fW+1,3));}else{_$EQ=_$IH(_$gt(_$dg,_$fW+1,_$fW+4));}if(_$EQ!==_$E6){}_$fW+=4;_$E6++ ;}function _$GB(_$Gx){var _$EQ=_$wG(),_$Gj,_$F2=new _$H9(_$Gx),_$FA=new _$H9(_$EQ),_$A8=new _$H9(_$Gx+_$EQ);if(_$Gx==3){var _$Cp=_$Jq[_$oa()][_$iH()]((_$Jh()-_$qq)/1000);_$Ds=_$Ds+_$Jq[_$oa()][_$iH()](_$Jq[_$oa()][_$rk()](_$Cp/5.88+1));}_$Gj=0;while (_$Gj<_$EQ)_$FA[_$Gj++ ]=_$Dv(1);_$Gj=0;while (_$Gj<_$Gx)_$F2[_$Gj++ ]=_$Dv(1);_$pj(_$F2);_$Gj=0;var _$Dt=0,_$Fh=0;while (_$Dt<_$EQ&&_$Fh<_$Gx){var _$xt=(_$uN()%100)*(_$EQ-_$Dt+1)/(_$Gx-_$Fh)>=50;var _$Gi=_$uN()%10;if(_$xt){while (_$Dt<_$EQ&&_$Gi>0){_$A8[_$Gj++ ]=_$FA[_$Dt++ ]; --_$Gi;}}else{while (_$Fh<_$Gx&&_$Gi>0){_$A8[_$Gj++ ]=_$F2[_$Fh++ ]; --_$Gi;}}}while (_$Dt<_$EQ)_$A8[_$Gj++ ]=_$FA[_$Dt++ ];while (_$Fh<_$Gx)_$A8[_$Gj++ ]=_$F2[_$Fh++ ];return _$A8.join(_$bk());}function _$F8(){var _$EQ=_$yL(_$dg,_$fW);_$fW+=_$z6(_$dg,_$fW);return _$EQ;}function _$E0(){return _$dg[_$fW++ ];};;}function _$gt(_$E8,_$Dv,_$xe){_$Dv=_$Dv||0;if(_$xe===_$Jf)_$xe=_$E8.length;var _$zY=new _$H9(_$Ji[_$gA()](_$E8.length/40960)),_$GB=_$xe-40960,_$yG=0;while (_$Dv<_$GB){_$zY[_$yG++ ]=_$GU[_$b1()](null,_$E8[_$t1()](_$Dv,_$Dv+=40960));}if(_$Dv<_$xe)_$zY[_$yG++ ]=_$GU[_$b1()](null,_$E8[_$t1()](_$Dv,_$xe));return _$zY.join(_$lN());}function _$Gz(){return 13}function _$x5(){_$aF=_$Ir.prototype.charAt;_$Jj=_$Ir.prototype.charCodeAt;_$iF=_$Ir.prototype.codePointAt;_$IX=_$Ir.prototype.concat;_$iz=_$Ir.prototype.includes;_$IQ=_$Ir.prototype.indexOf;_$GX=_$Ir.prototype.lastIndexOf;_$zA=_$Ir.prototype.localeCompare;_$BV=_$Ir.prototype.match;_$ix=_$Ir.prototype.normalize;_$u0=_$Ir.prototype.padEnd;_$pF=_$Ir.prototype.padStart;_$zJ=_$Ir.prototype.repeat;_$BM=_$Ir.prototype.replace;_$wN=_$Ir.prototype.search;_$fr=_$Ir.prototype.slice;_$IU=_$Ir.prototype.split;_$IL=_$Ir.prototype.substr;_$ii=_$Ir.prototype.substring;_$aS=_$Ir.prototype.toLocaleLowerCase;_$g7=_$Ir.prototype.toLocaleUpperCase;_$IT=_$Ir.prototype.toLowerCase;_$cm=_$Ir.prototype.toSource;_$xU=_$Ir.prototype.toString;_$GF=_$Ir.prototype.toUpperCase;_$oM=_$Ir.prototype.trim;_$l8=_$Ir.prototype.trimLeft;_$vz=_$Ir.prototype.trimRight;_$aW=_$Ir.prototype.valueOf;}function _$Eh(_$E8,_$Dv){var _$yG=_$vj(_$E8),_$zY=new _$H9(_$Bq(_$yG/_$Dv)),_$xe=0,_$GB=0;for (;_$GB<_$yG;_$GB+=_$Dv,_$xe++ )_$zY[_$xe]=_$IL.call(_$E8,_$GB,_$Dv);return _$zY;}function _$wC(_$xe){var _$zY,_$Dv=_$xe.length,_$CP=new _$H9(_$Dv-1);var _$E8=_$Jj.call(_$xe,0)-93;for (var _$GB=0,_$yG=1;_$yG<_$Dv; ++_$yG){_$zY=_$Jj.call(_$xe,_$yG);if(_$zY>=40&&_$zY<92){_$zY+=_$E8;if(_$zY>=92)_$zY=_$zY-52;}else if(_$zY>=93&&_$zY<127){_$zY+=_$E8;if(_$zY>=127)_$zY=_$zY-34;}_$CP[_$GB++ ]=_$zY;}return _$GU.apply(null,_$CP);}function _$zS(_$E8){_$E8=_$IU.call(_$E8,_$lN());for (var _$zY=0;_$zY<_$E8.length;_$zY++ ){if(_$E8[_$zY]===_$em()){_$E8[_$zY]=_$mz();}else if(_$E8[_$zY]===_$mz()){_$E8[_$zY]=_$em();}}return _$E8.join(_$lN());}function _$Gn(_$CP,_$yG){if( typeof _$CP===_$gl())_$CP=_$Fv(_$CP);if( !_$yG)_$yG=_$oU();var _$zY,_$E8=_$IO=0,_$xe=_$CP.length,_$Dv,_$GB;_$zY=new _$H9(_$Ji[_$qt()](_$xe*4/3));_$xe=_$CP.length-2;while (_$E8<_$xe){_$Dv=_$CP[_$E8++ ];_$zY[_$IO++ ]=_$yG[_$Dv>>2];_$GB=_$CP[_$E8++ ];_$zY[_$IO++ ]=_$yG[((_$Dv&3)<<4)|(_$GB>>4)];_$Dv=_$CP[_$E8++ ];_$zY[_$IO++ ]=_$yG[((_$GB&15)<<2)|(_$Dv>>6)];_$zY[_$IO++ ]=_$yG[_$Dv&63];}if(_$E8<_$CP.length){_$Dv=_$CP[_$E8];_$zY[_$IO++ ]=_$yG[_$Dv>>2];_$GB=_$CP[ ++_$E8];_$zY[_$IO++ ]=_$yG[((_$Dv&3)<<4)|(_$GB>>4)];if(_$GB!==_$Jf){_$zY[_$IO++ ]=_$yG[(_$GB&15)<<2];}}return _$zY.join(_$bk());}function _$HO(){return 10}function _$Ib(_$xe){var _$zY,_$Dv=_$vj(_$xe),_$CP=new _$H9(_$Dv-1);var _$E8=_$Jj.call(_$xe,0)-68;for (var _$GB=0,_$yG=1;_$yG<_$Dv; ++_$yG){_$zY=_$Jj.call(_$xe,_$yG);if(_$zY>=93&&_$zY<127){_$zY+=_$E8;if(_$zY>=127)_$zY-=34;}else if(_$zY>=65&&_$zY<92){_$zY+=_$E8;if(_$zY>=92)_$zY-=27;}else if(_$zY>=48&&_$zY<58){_$zY+=_$E8;if(_$zY>=58)_$zY-=10;}_$CP[_$GB++ ]=_$zY;}return _$GU.apply(null,_$CP);}function _$Fv(_$xe){var _$E8,_$zY=0,_$yG;_$xe=_$ea(_$xe);_$yG=_$xe.length;_$E8=new _$H9(_$yG);_$yG-=3;while (_$zY<_$yG){_$E8[_$zY]=_$Jj.call(_$xe,_$zY++ );_$E8[_$zY]=_$Jj.call(_$xe,_$zY++ );_$E8[_$zY]=_$Jj.call(_$xe,_$zY++ );_$E8[_$zY]=_$Jj.call(_$xe,_$zY++ );}_$yG+=3;while (_$zY<_$yG)_$E8[_$zY]=_$Jj.call(_$xe,_$zY++ );return _$E8;}function _$AH(_$E8,_$xe){for (var _$zY=0;_$zY<_$xe.length;_$zY++ ){_$Jq[_$yM(_$E8[_$zY])]=_$pM(_$xe[_$zY]);}}function _$z6(_$E8,_$yG){var _$zY=_$Dl()[5];var _$xe=_$zY[_$Jj.call(_$E8,_$yG)];if(_$xe<82)return 1;return 86-_$xe+1;}function _$Aj(_$zY){if( !_$I2)return;if( typeof _$zY===_$qz()){_$zY=_$Ir(_$zY);}_$zY=_$uW()+_$Gn(_$zY);return _$I2[_$zY];}function _$CO(_$Dv){var _$GB=_$Dv.length,_$zY=new _$H9(_$GB),_$yG,_$xe,_$E8=_$ft();for (_$yG=0;_$yG<_$GB;_$yG++ ){_$xe=_$Jj.call(_$Dv,_$yG);if(_$xe>=32&&_$xe<127)_$zY[_$yG]=_$E8[_$xe-32];else _$zY[_$yG]=_$aF.call(_$Dv,_$yG);}return _$zY.join(_$bk());}function _$ux(){return _$GU(95,36);}function _$AG(_$E8,_$zY){return _$yn(_$E8)%_$zY;}function _$oD(){return 427;}function _$Hc(){return 15}function _$H6(){return 1}function _$ea(_$zY){return _$m7(_$hd(_$zY));}function _$cU(_$zY){_$zY[4]=_$H6();var _$Dv=_$G2();_$Dv=_$H5();_$zY[11]=_$HB();return _$Iy();}function _$pM(_$E8){var _$zY;return function(_$xe,_$yG){if(_$zY===_$Jf){_$zY=_$yM(_$E8);}return _$zY;};}function _$vj(_$zY){return _$zY[_$h3];}function _$Ia(_$zY,_$E8){_$Eu|=_$zY;if(_$E8)_$ES|=_$zY;}function _$DI(_$E8){var _$zY=[],_$xe,_$yG,_$GB,_$Dv=_$Jj.call(_$ki(),0);for (_$xe=0;_$xe<_$E8.length;){_$yG=_$E8[_$xe];if(_$yG<0x80){_$GB=_$yG;}else if(_$yG<0xc0){_$GB=_$Dv;}else if(_$yG<0xe0){_$GB=((_$yG&0x3F)<<6)|(_$E8[_$xe+1]&0x3F);_$xe++ ;}else if(_$yG<0xf0){_$GB=((_$yG&0x0F)<<12)|((_$E8[_$xe+1]&0x3F)<<6)|(_$E8[_$xe+2]&0x3F);_$xe+=2;}else if(_$yG<0xf8){_$GB=_$Dv;_$xe+=3;}else if(_$yG<0xfc){_$GB=_$Dv;_$xe+=4;}else if(_$yG<0xfe){_$GB=_$Dv;_$xe+=5;}else{_$GB=_$Dv;}_$xe++ ;_$zY.push(_$GB);}return _$gt(_$zY);}function _$IN(_$yG){var _$zw=_$yG.length,_$GE=new _$H9(_$Ji[_$sV()](_$zw*3/4));var _$Di,_$Gp,_$GJ,_$E6;var _$CP=0,_$dg=0,_$xe=_$zw-3;var _$E8=_$Dl();var _$FO=_$E8[0],_$or=_$E8[1],_$Dv=_$E8[2],_$GB=_$E8[3],_$Gv=_$E8[4],_$zY=_$E8[5];for (_$CP=0;_$CP<_$xe;){_$Di=_$Jj.call(_$yG,_$CP++ );_$Gp=_$Jj.call(_$yG,_$CP++ );_$GJ=_$Jj.call(_$yG,_$CP++ );_$E6=_$Jj.call(_$yG,_$CP++ );_$GE[_$dg++ ]=_$FO[_$Di]|_$or[_$Gp];_$GE[_$dg++ ]=_$Dv[_$Gp]|_$GB[_$GJ];_$GE[_$dg++ ]=_$Gv[_$GJ]|_$zY[_$E6];}if(_$CP<_$zw){_$Di=_$Jj.call(_$yG,_$CP++ );_$Gp=_$Jj.call(_$yG,_$CP++ );_$GE[_$dg++ ]=_$FO[_$Di]|_$or[_$Gp];if(_$CP<_$zw){_$GJ=_$Jj.call(_$yG,_$CP);_$GE[_$dg++ ]=_$Dv[_$Gp]|_$GB[_$GJ];}}return _$GE;}var _$Jf,_$I2,_$HY;_$Jq=window;_$Ir=String;_$x5();_$BQ(_$Af(),_$xy());_$GU=_$Ir.fromCharCode;_$Bq=_$Ji.ceil;_$ED=_$GU(96);var _$Eu,_$ES,_$F6;var _$F4=1;_$h3=_$wC("zqjslym");;;function _$H8(_$zY){_$zY[_$AG(_$Gl(),16)]=_$HG();var _$GB=_$tf();_$yG=_$Gz();_$zY[_$AG(_$C6(),16)]=_$Id();if(_$HB()){_$zY[_$AG(_$Cr(),16)]=_$H6();}return _$H5();}function _$oU(){return _$IU.call(_$aG(),_$lN());}function _$BF(_$xe,_$yG){var _$E8=_$ux();for (var _$zY=0;_$zY<_$yG.length;_$zY++ ){_$Jq[_$E8+_$xe[_$zY]]=_$hN(_$yG[_$zY]);}}function _$H4(_$zY){_$zY[12]=_$HT(_$zY);var _$yG=_$H6();_$yG=_$Gz()+_$G2();_$zY[10]=_$HB()+_$Iy();_$zY[_$AG(_$zY[_$AG(_$Hc(),16)],16)]=_$Hw(_$zY);_$H8(_$zY);return _$zY[_$AG(_$HB()+_$Iy(),16)];}function _$An(_$yG,_$zY){_$yG=_$yG[_$uw()](_$tM());_$yG.push(_$zY);var _$GB=_$yG.length,_$xe=new _$H9(_$GB);for (var _$E8=0;_$E8<_$GB;_$E8++ ){_$xe[_$E8]=_$oe()[_$ps()](_$E8,_$ri());}return new _$HV(_$qW(),_$HZ()+_$xe.join(_$tM())+_$hC())(_$yG);}function _$yM(_$xe){var _$yG=_$xe.length,_$zY=new _$H9(_$yG),_$E8=0,_$GB=_$mf();while (_$E8<_$yG){_$zY[_$E8]=_$GB[_$Jj.call(_$xe,_$E8++ )];}return _$zY.join(_$bk());}function _$en(_$E8){var _$zY=_$IN(_$E8);return _$DI(_$zY);}function _$Af(){return "GH$hmiI3dJHG_HVB7drH9u";}function _$H5(){return 9}function _$Hw(_$zY){_$zY[12]=_$Id();var _$yG=_$Iy();_$Dv=_$FJ();_$zY[3]=_$Gz();return _$G2();}function _$mD(){return"vCo~wl}rxwCDb {n}~{w o~wl}rxwCrmDb ]j{ _ X mxl~vnw}Ipn},unvnw})`0mCrmDV ]j{ ] X _Ilxw}nw}V _Iyj{nw}5xmnI{nvx]n*qrumC_DV {n}~{w ]VddCDD";}function _$qu(){if(_$Eh)/$/.test(_$yD());_$tg(_$jI(),_$jI(),_$jI(),_$jI(),_$jI(),_$jI());_$t2();_$Jp=_$Jq[_$tn()];_$uN=_$Ji[_$iL()];_$HY=_$Jq[_$gE()];_$B9=_$Jq[_$bK()];_$yn=_$Ji[_$rV()];_$uu=_$Jq[_$l7()];try{_$I2=_$Jq[_$oS()];}catch(_$zY){}if(_$I2){try{_$I2[_$a7()]=_$a7();_$I2[_$hq()](_$a7());_$I2[_$pP()]=_$oS();}catch(_$zY){_$I2=_$Jf;}}if( !_$Eu&& !_$ES){_$ES=0;_$Eu=0;_$F6=0;}if( !_$uu){_$uu=new _$dB();_$Jq[_$l7()]=_$uu;}_$pz=_$IN(_$pi());}function _$uh(_$E8){var _$zY=arguments;return _$E8[_$va()](/\{(.+?)\}/g,function(_$yG,_$xe){return _$zY[_$IH(_$xe)+1];});}function _$Iy(){return 6}function _$m9(){var _$xe=_$Ib(_$jI());_$xe=_$Eh(_$xe,2);var _$E8=_$CO(_$ui());for (var _$zY=0;_$zY<_$xe.length;_$zY++ ){_$xe[_$zY]=_$E8+_$xe[_$zY];}return _$xe;}var _$EO;;_$jZ=_$Bf();_$ir();_$qu();_$AL();;function _$bY(_$zY){return function(){return _$zY;};}function _$zk(_$E8){_$E8=_$IU.call(_$E8,_$lN());for (var _$zY=0;_$zY<_$E8.length;_$zY++ ){if(_$E8[_$zY]===_$lF()){_$E8[_$zY]=_$aM();}else if(_$E8[_$zY]===_$aM()){_$E8[_$zY]=_$lF();}}return _$E8.join(_$lN());}function _$Id(){return 12}function _$HT(_$zY){_$zY[_$AG(_$HB(),16)]=_$Iy();_$zY[_$AG(_$H6(),16)]=_$Hc();var _$Dv=_$H5();_$GB=_$HO();return _$HB();}function _$uK(_$zY,_$E8,_$xe,_$yG){for (;_$E8<_$xe;_$E8++ ){_$zY[_$E8]=_$yG;}}</script><script type="text/javascript" src="/module/resources/bootstrap2.3.2/js/jquery.min.js?D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/module/resources/beacon/js/beacon_jquery_common.js?D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/module/resources/beacon/js/beacon_jquery_main.js?D9PVtGL=0a1397"></script>
+<script type="text/javascript">var errorCode=_$wC('xIIIIII');var errorDesc='';var userName=_$Dg('pGECwnpBhCQ');</script>
+</head>
+
+  <body >
+      
+
+<script type="text/javascript">var l_LIST_S_1=_$Dg('rPdfGN6Rf.OOX.3');var l_LIST_S_2=_$Dg('JckAbghlLFs1G4W');var l_NC_S=_$Dg('crszO4UZ9RHzvg4dXFE');var l_RN_S=_$Dg('JTsAaE1ebil373sa0z54B4O7');var l_CLICK=_$Dg('DX4eMtWtvVBZM.ZYfvG');var l_LIST_S_2=_$Dg('rqsGB4hG93kPNgW');var l_LIST_S_2=_$Dg('mVMSdFiPGW4u_RE');var l_LIST_S_2=_$Dg('ECMo6RKczX4mnFA');var l_H_COM=_$Dg('IAD3.7s90N83OXhzd.X3PJIX_FFMfBuBSFPRzwIjSjjRjHI0_x1M7d.uyyD3XQsS0Ln1NIon0jnVvHsySMJH5ZKtbR.3S7KNbho4aeCf9NBZ');var l_C_HINT=_$Dg('pnCfLzIxgyV');var l_H_COM_NO=_$Dg('8X18UHQJuYK1Kz3');var l_H_COM_N_PRE=_$Dg('E6Bmn3tFBdsoSjbMbakoi39');var l_H_COM_N_NEXT=_$Dg('hukxGL4U74BhP_sA24UhOLV');var l_H_DET_N_PRE=_$Dg('1RDBE5f0TpjzhWJSZpFzh5Je6r5Bi7ydZSjjoQ7');var l_H_DET_N_NEXT=_$Dg('Drd5.MvDftOZbNHoLtsZvMhkOFo5PxdJLju4jyL');var l_H_INP_NC=_$Dg('lJUTsj0dPYhTVx35LKo03y009Ck0RjLgXYL');var l_H_INP_MN=_$Dg('qVI90L8XLQ49CLn7NBu2e3nbGBh2_hXCjiG');var l_H_INP_ONLY_CHN=_$Dg('1p579iHEnNnfvJ.DuEDzv8sq6_q');var l_H_INP_IMF=_$Dg('FubiLzUITNbWGH6Fn45Hf5FL_HnH5zD9aBg');var l_H_INP_FORMAT=_$Dg('coOXCh1QzHUf4yDVNeE92jIEgk_MRE0v4pPC3MVv4uj83tGxyuKlM4le4k8zzX0DObF1rq');var l_H_INP_10=_$Dg('mWOaQx9f26IZIRl9j0L2ddmPGu8gwa');var l_H_INP_HNC=_$Dg('J_HIkErrja6piRxHbq.1h4xHbphsmxNmPs61tNxUbsosk_pYfO61DtcF0OP3VE9j0O519S_A0aKOKLZn09nnxtwN0DjJENwy');var l_H_INP_EN=_$Dg('Ke55VHlECmnuUWGD69DuMXLquKc5RelhC6xTcwzTzmoUkJz6wfhMFhpiTSoMMhSQgpk4142gafMvw.24aecyIQEpy6i5GWsk_5kQbG');var l_H_INP_RN=_$Dg('Ukc_GdsVC.yuTWPozx..0eiqXEkp0w5oXEHbCdKo');var l_H_S_NULL=_$Dg('Dw6ds3Vy.U6ZRFLEOVuSsxAcfVdZp4Ecv6oCYRG');var l_H_S_NORESULT=_$Dg('V5jTKHEJuCKTRi0hCT50F57VT9DCww3pdVnZ1zE');var l_H_S_TOTAL=_$Dg('I4jFHZyweGtFJQZ');var l_H_S_ITEM=_$Dg('mJUewt0yjm3');var l_C_ERROR=_$Dg('KxcSrWmyeu0');var l_H_INP_5=_$Dg('UPF6NzIrT3D_9wHc6RFCbzBmgF2.SB5x736I');var l_H_INP_IMF_NULL=_$Dg('kVo.Z_n99Q.Lu4i7OQdj63bf.Hkj0FW');var l_MN_DESC_2=_$Dg('FQ_r3wgjeUPWpiZ0nY1WpiAnubFJMZAaT0jWUZaegbcqAzLSTYiHs53m0VPWsBgkZCDHMwVie2XJViEkd25WR79tam1HseVITKjJsiEKu6FD1IicrN9iCrXQreLwbG8MPv6.');var l_H_HELP_1=_$Dg('KO_nXIkF0iPZ6B5je8DT5WcOT75eaBCB_IteZQKPgw1ngd_bdQXdCWiyyQbnZzFZyQ15_XFS5wPe4IPyCz9');var l_H_HELP_2=_$Dg('Fyicl5xngknJcQydSkjlxImZyStWDQS_duFJmeSmnGjixHxmeqDkc72iuciiEHxrTkDkcXwlTknHlzwxnkcWrQ2p_ul');var l_H_HELP_3=_$Dg('QJDKUXqCu9PYVw0nTTXK1JVa66XKsW95umiI38LgaYFYs8QcZDiKFWaJ4TFsRBlH5TbKIdQxZDjK8QqE6UbsMdlY6KFYY7AAZoKYM7gsuYKs8HE');var l_H_HELP_4=_$Dg('Vw1y853auU_0AzQ5ZY_01zaZebnTRIaC40n0RIADdCtTU7EcgDn01Z3E4K10sQ7i_VD6UwGEdobTYzLRS9KT1zaM09b6FwGp5lC6Ki0F0UG');var l_H_HELP_5=_$Dg('p0bByBcBC5iPCQD.yZbP6Zj6giDO_Xj45Q8P0ix2L5dzB7dHL5oPBddK.eMCXJo3L76Af5OBjJdHf7Ie33sodjoG03BoZbbxSdKP6QPE0z5GZB_K_BXG65DpnWtOueP1nJ8OaXtQnw_PZec15d8LaZXuLuvzRBabLuuWMQa6LpoqM8L8L1Ut35G4.G6iFWabLO6AwiWbLAuPIiG6NrMmza');var l_H_HELP_6=_$Dg('oYBTetjyGIUgnyXyB8IgZRcmXzHy6hcJLdUgg.PrfwM4gR1HLQH45tCh7HO5ZxZ');var l_H_HELP_7=_$Dg('JddIVEd2Ntvw2442bEHw2MUfv4IQ7xUffNvwON0e6hK1_hcRcB1qXecRPIKX9eCg.dcUbz89zHCq9enO9BPkXJnb7B8u9w_6BZ8YzJ_hzQCU9wCLv7DgLJcfPQCXje_nvQFUOwXaXG');var l_H_HELP_8=_$Dg('lHOgY_QQOmhT3tgR.Yd6AL3373oTXMuj.yk0GMsP.RkCNykv.3UCzLI7736C2jULv_.Tj4su93LjZRDJiIcQvHbaGuo09RIuPgd5Lx6g2tvTLLhEBNM6BMslOFd0Bjdk.EUC2EIi7FB094dxbgsgO_sDOxhn7RW');var l_SM_CC=_$Dg('sA_.BZsjgEQ');var l_SM_CS=_$Dg('H.O3WgxALA9');var l_SM_E=_$Dg('pnCBNBME0FG');var l_SM_N=_$Dg('R5PrIwQWnv0');var l_SM_A=_$Dg('ErImX.Ieft0');var l_SM_G=_$Dg('k2O.a4cZ7dG');var l_H_INP_ALL_NULL=_$Dg('kYBLahcT2JOLTLXgBJBL4.jDz842y4cr7H.N648JbQMN0LCJ97v2aj5E9W4Nn4X1OIq');var l_H_INP_1_20=_$Dg('1D_GaI5oeXizeiTkRVmg9HkI.wBI9is8');var l_H_INP_2E=_$Dg('MNDDhdT6_uFthiySTOnEodfa4fntE7NdTOFDmzeg5rPhkI2oa1Z');var l_H_INP_E=_$Dg('JaUIjLkOj_dp2yhfbtO1OMhNbMsszN.vP3H12xh0Btd8PgAy0RChdjP.0_cZZ_cB0NFU5N_90M5hqA');var l_H_INP_N=_$Dg('t9kHugcNjIdcdMbf.5kk6NKfLQoie3K7BdBHgMTfuBF5jyhwueCBz4.guICA7g.j');var l_H_INP_C=_$Dg('WuvKzNv17EMMGjk3zNBUfy_bNQ3INLBUTdn5LhdkTz83.y.uT8jH');var l_H_INP_3_36=_$Dg('Yacd.5kN_RDnfBE68OwfgX5z7jUq4BX7');var l_IMF_DESC=_$Dg('igUstLSONndwmyyf2cO8kMyN2ssIJNRvfAH8mxy6Lc68tR2nfakQJ4N6fSUQxjTZbS6Ixhr6.cBIDyylzPOsrt2r7nH8t3Sc7n41W_5D6s841RZ66PDVpgVO6O18feZh9YXoiwguOmiDteWKOmCvWJgvfYPDoJak.18MAJy_21FSMA');var l_ERR_LOAD_SOUND=_$Dg('iNvIlyNnfnMIHgN0N16QcMTlGpIIrLzhOGl');var l_H_TOO_MUCH=_$Dg('EXklA_ED29kmKhlcBovlQyEiNKItYjVHfvoJVtgEv66oRjZKGUompLqVbKIlF4gs.Y6tp43QXKsoQjdJS9K2Dhe8aEcf');var l_GOODS_HINT1=_$Dg('JuoY7FBUfgdpLNOQ2LdA.xvFz_spz.k8fgkpjyOMB4vAZ3n2O5dACMiz2BuA6RbLPZs1SE1NzZoAd3nNPdh1C.DTNJk1ahXTjev16yFuX5610hDS2BhVC4ngOdkAShi_.J685hth2z.AdybDz5A');var l_GOODS_HINT2=_$Dg('KM54HZV2avnZpJa25VWFxe2MB0B8te2kBvBPh5YaBmOItZNiBlhYJZYIBmvgWwYBBm4IHdfaX2v1HXmCB9MwiWxOBmvQcIf3Bvv6qJ2b');var l_GOODS_HINT3=_$Dg('H7hQAjEvfmk3VgQ9B2.3ph97j0u3F49Lfmv3KEQ.G9.K3MFM8BJnBVCfCb_sWtpQT6PoHFYT6YnZ');</script>
+<script type='text/javascript' r='m'>
+_$pU('gEGr');
+</script>
+<script type='text/javascript' r='m'>
+_$pU('4Ea4');
+</script>
+
+<link rel="stylesheet" href="/tmrp/css/zh_CN_css.css" media="print" />
+<link rel="stylesheet" href="/tmrp/css/zh_CN_debug.css" media="print" />
+<link rel="stylesheet" href="/03_freeze/freeze/layout/css/bootstrap.css" media="print" />
+    <script type='text/javascript' r='m'>
+_$pU('VxqB');
+</script>
+     
+
+
+
+
+
+
+<div class="head headd">
+  <div class="head_i">
+    <div class="head_l">WWW.CTMO.GOV.CN SBJ.SAIC.GOV.CN</div>
+    <div class="head_r"><span style="cursor:pointer;" onclick="window.open('/help/index.html')">帮助</span>
+    &nbsp;&nbsp;&nbsp;&nbsp;<span id="updateTimeSpan">当前数据截至：
+    (2019年06月28日)</span></div>
+  </div>
+</div>
+
+
+<div class="tabbox">
+  <ul>
+    <li id="txnDetail" class="cursorPointer"><img src="tmrp/images/sbxq.png">商标详情</li>
+    <li id="txnDetail2" class="cursorPointer"><img src="tmrp/images/sblc.png">商标流程</li>
+  </ul>
+</div>
+
+<script type="text/javascript">var _comp="";var _txnCode=_$Dg('tcp7AYSlAVL');if(_txnCode==_$wC('k6yfu}^')){$(_$Dg('t1qtYmmHMVwwA9rE')).addClass(_$wC('xvwluu mpy'));$(_$Dg('D63gqbWRUSTBDoEKtA')).addClass(_$wC('wvm^|9pilw]'));}if(_txnCode==_$Dg('8k0ZKqSIlYJt')){$(_$wC('e#lpf<]l{ad')).addClass(_$Dg('r42f0oV'));$(_$wC('m#dh^4wds{~V')).addClass(_$Dg('hMNcn9OYAa'));}if(_comp!=null&&_comp=="1"){$(_$wC('g#jnd:}jy_b')).css(_$Dg('W9fKEVlyUPzh'),_$wC('vwxwn'));}</script>
+<script type='text/javascript' r='m'>
+_$pU('exAE');
+</script>
+
+<script type="text/javascript">var infoComplate='1';</script>
+
+<div id="detailParameter" style="display:none">
+  <input name="request:index" value="1">
+  <input name="info:mno" value="香茗丽诗;STYLISH TEA">
+  <input name="info:rn" value="12919336">
+  <input name="info:nc" value="30">
+  <input name="info:fai" value="1438">
+  <input name="info:rai" value="1450">
+  <input name="info:hnc" value="广州途量财税咨询有限公司">
+</div>
+
+    
+    <div class="xqbox" style="display:none;">
+      <div class="lefta cursorPointer"></div>
+      <div class="righta cursorPointer"></div>
+      <div id="tmContent">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="22%" rowspan="3"><div class="picturebox" style="text-align:center;vertical-align:middle;display:table-cell;">
+          <img id="tmImage" img_src="http://wswj.saic.gov.cn:8080/images/TID/201307/336/42EE36EA83EAA86BC872F4F57865E58D/30/ORI.JPG" 
+          onload="AutoResizeImage(170,170,this)" onclick="showOriImage(this)" style="cursor: pointer;"></div></td>
+        	<td width="15%" height="85"><span>商品/服务</span></td>
+        	<td width="63%" class="info">
+        	
+                	
+                	茶;
+                	
+                	冰茶;
+                	
+                	茶饮料;
+                	
+                	
+                	<a href="javascript:void(0);" onclick="showNcsTips()">查看详细信息</a>
+                	
+                	<div id="ncsTips" class="tips" style="display:none;position:absolute;top:115px;background-color:#fff;">
+			            <div class="box" >
+							<s class="s" style="left:320px">
+								<i class="i"></i>
+        <div class="list_box" id="list_box" style="width:390px;height:140px;overflow:auto;margin-top:15px;margin-left:-325px;">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="50%">类似群</th>
+              <th width="50%">商品名称</th>
+            </tr>
+        	
+            <tr>
+              <td class="lwtd0">3002</td>
+              <td class="lwtd0">茶</td>
+            </tr>
+                	
+            <tr>
+              <td class="lwtd1">3002</td>
+              <td class="lwtd1">冰茶</td>
+            </tr>
+                	
+            <tr>
+              <td class="lwtd0">3002</td>
+              <td class="lwtd0">茶饮料</td>
+            </tr>
+                	
+          </table>
+        </div>
+							</s>
+						</div>
+                	</div>
+        	</td>
+        </tr>
+        <tr>
+          <td><span>类似群 </span></td>
+          <td class="info" style="word-break:break-all;table-layout:fixed;">&nbsp;
+          3002;
+          </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="17%"><span>申请/注册号</span></td>
+          <td width="16%" class="info">12919336</td>
+          <td width="14%"><span>申请日期</span></td>
+          <td width="15%" class="info">2013年07月15日</td>
+          <td width="15%"><span>国际分类</span></td>
+          <td width="23%" class="info">30</td>
+        </tr>
+        <tr>
+          <td><span>申请人名称（中文）</span></td>
+          <td colspan="5" class="info">广州途量财税咨询有限公司</td>
+        </tr>
+        <tr>
+          <td><span>申请人名称（英文）</span></td>
+          <td colspan="5" class="info"></td>
+        </tr>
+        <tr>
+          <td width="17%"><span>申请人地址（中文）</span></td>
+          <td colspan="5" class="info">广东省广州市天河区翰景路1号金星大厦4楼G3（仅限办公用途）</td>
+        </tr>
+        <tr>
+          <td><span>申请人地址（英文）</span></td>
+          <td colspan="5" class="info"></td>
+        </tr>
+        <tr>
+          <td><span>初审公告期号</span></td>
+          <td class="info"><span>1438</span></td>
+          <td><span>注册公告期号</span></td>
+          <td class="info"><span>1450</span></td>
+          <td><span>是否共有商标</span>
+                    <div id="shareTips" class="tips" style="display:none;position:absolute;top:430px;background-color:#fff;">
+			            <div class="box" style="width:320px;" >
+							<s class="s" style="left:160px;">
+								<i class="i"></i>
+        <div class="list_box" style="width:310px;height:140px;overflow:auto;margin-top:15px;margin-left:-165px;">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <th width="20%">序号</th>
+              <th width="80%">共有人名称</th>
+            </tr>
+        	
+          </table>
+        </div>
+							</s>
+						</div>
+                	</div>
+          
+          
+          </td>
+          <td class="info">
+          
+          否
+          
+          </td>
+        </tr>
+        <tr>
+          <td width="17%"><span>初审公告日期</span></td>
+          <td width="16%" class="info">2015年01月06日</td>
+          <td width="14%"><span>注册公告日期</span></td>
+          <td width="15%" class="info">2015年04月07日</td>
+          <td width="15%"><span>商标类型</span></td>
+          <td width="23%" class="info">一般</td>
+        </tr>
+        <tr>
+          <td><span>专用权期限</span></td>
+          <td colspan="3" class="info">2015年04月07日
+          至&nbsp;2025年04月06日</td>
+          <td><span>商标形式</span></td>
+          
+          <td class="info">
+          
+          
+          
+          </td>
+        
+        </tr>
+        <tr>
+          <td><span>国际注册日期</span></td>
+          <td class="info"></td>
+          <td><span>后期指定日期</span></td>
+          <td class="info"></td>
+          <td><span>优先权日期</span></td>
+          
+          <td class="info">
+          </td>
+        </tr>
+        <tr>
+          <td width="17%"><span>代理/办理机构</span></td>
+           
+          <td class="info" colspan="5">广州发业财务咨询有限公司</td>
+        </tr>
+        <tr>
+          <td><span>商标流程</span></td>
+          <td class="info"><a id="showProcess" href="javascript:void(0);">点击查看</a></td>
+          
+		  <td>&nbsp;</td><td colspan="3">&nbsp;</td>
+		  
+        </tr>
+        <tr>
+          <td><span>商标状态图标</span></td>
+          <td class="info" colspan="5"><div width="118" height="118" class="point point_8">&nbsp;</div>
+            <div style="float:left; margin-top:20px;">
+              LIVE/REGISTRATION/Issued and Active<br>
+              注册
+              </div></td>
+        </tr>
+        <tr>
+          <td colspan="6" align="center" style="border-bottom:0px;"><font style="color:#FF0000">仅供参考，不具有法律效力</font></td>
+        </tr>
+      </table>
+      <div class="bottonbox">
+        <script type='text/javascript' r='m'>
+_$pU('kxGC');
+</script>
+        <script type='text/javascript' r='m'>
+_$pU('9xaN');
+</script>
+        <script type='text/javascript' r='m'>
+_$pU('ptq9');
+</script>
+      </div>
+      </div>
+    </div>
+    
+<div class="footer">
+
+版权所有：国家知识产权局<br>
+
+本系统建议在PC端使用IE8以上版本浏览器分辨率设置高于1366*768<br>
+<div style="float:right;margin-top:-70px;padding-right:20px;"><script id="_jiucuo_" sitecode='bm30000002' src='http://pucha.kaipuyun.cn/exposure/jiucuo.js'></script>
+</div>
+</div>
+
+  <script type="text/javascript" src="/module/resources/bootstrap2.3.2/js/bootstrap.min.js?D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/module/resources/bootstrap2.3.2/js/jquery.form.js?1.127&D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/module/resources/bootstrap2.3.2/js/angular.min.js?1.127&D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/tmrp/js/common.js?1.127&D9PVtGL=0a1397"></script>
+<script type="text/javascript" src="/tmrp/js/detail.js?1.127&D9PVtGL=0a1397"></script>
+</body>
+
+</html>
+<script type="text/javascript" r='m'>_$Ef();</script>
